@@ -1,7 +1,7 @@
 Summary: Sample Authorization Protocol for X
 Name: libXau
-Version: 1.0.5
-Release: 1%{?dist}
+Version: 1.0.6
+Release: 4%{?dist}
 License: MIT
 Group: System Environment/Libraries
 URL: http://www.x.org
@@ -70,6 +70,18 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*.3*
 
 %changelog
+* Thu Jul 19 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.6-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
+
+* Fri Jan 13 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.6-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
+
+* Mon Feb 07 2011 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.6-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_15_Mass_Rebuild
+
+* Tue Jul 20 2010 Peter Hutterer <peter.hutterer@redhat.com> 1.0.6-1
+- libXau 1.0.6
+
 * Fri Aug 28 2009 Peter Hutterer <peter.hutterer@redhat.com> 1.0.5-1
 - libXau 1.0.5
 
